@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[5]:
-
-
 # Pokemon class
 
 class Pokemon:
@@ -62,10 +59,6 @@ It was not effective...
             print('''{self} attacked {target}.
 {target} received {damage} damage. {target} has {health} HP left.'''.format(self=self.name, target=target.name,\
                         damage=int(damage), health=int(target.health)))            
-
-
-# In[24]:
-
 
 # Trainer class
 
